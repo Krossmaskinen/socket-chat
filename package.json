@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Krossmaskinen/socket-chat/issues"
   },
-  "homepage": "https://github.com/Krossmaskinen/socket-chat#readme"
+  "homepage": "https://github.com/Krossmaskinen/socket-chat#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "socket.io": "^1.4.8"
+  }
 }
